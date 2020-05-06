@@ -4,4 +4,15 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application>
+
+        android:name="androidx.multidex.MultiDexApplication"
+    <!--If you are using your own custom Application class then extend -->
+    <!--MultiDexApplication and change above line as-->
+    <!--android:name=".YourCustomApplicationClass"> -->
+
+    </application>
+
 </manifest>
